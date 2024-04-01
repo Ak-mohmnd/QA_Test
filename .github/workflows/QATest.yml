@@ -28,6 +28,6 @@ jobs:
         env:
           # For recording and parallelization to work you must set your CYPRESS_RECORD_KEY
           # in GitHub repo → Settings → Secrets → Actions
-          CYPRESS_RECORD_KEY: ${{ eb997c65-f58c-455b-bba2-eb72d0af5cae }}
+          CYPRESS_RECORD_KEY: ${eb997c65-f58c-455b-bba2-eb72d0af5cae}
           # Creating a token https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

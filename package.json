@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "some-test-command",
-    "start": "node server.js",
-    "build": "your-build-command"
+  "scripts": 
+  {
+    "test": "cypress open",
+    "test:ci": "cypress run"
   },
+
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cypress": "^13.6.4",
     "xpath": "^0.0.34"
+    
   },
   "devDependencies": {
     "cypress-xpath": "^2.0.1"

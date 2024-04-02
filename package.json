@@ -3,20 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": 
-  {
+  "scripts": {
     "test": "cypress open",
     "test:ci": "cypress run"
   },
-
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.6.4",
     "xpath": "^0.0.34"
-    
   },
   "devDependencies": {
+    "cypress": "^13.7.2",
     "cypress-xpath": "^2.0.1"
   }
 }

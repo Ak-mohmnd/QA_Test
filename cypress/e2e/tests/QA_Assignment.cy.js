@@ -17,7 +17,7 @@ beforeEach(() =>
 
 describe('QA Test Assignment', () => 
 {
-    it('[TC01] After clicking on the SignIn button, It Should be Successfully login',()=>
+    it.only('[TC01] After clicking on the SignIn button, It Should be Successfully login',()=>
     {
         Assignment.Login(UserEmail, UserPassword)
     })

@@ -1,4 +1,4 @@
-name: Cypress Tests with Dependency and Artifact Caching
+name: Cypress Tests with CI/CD
 
 on: push
 
@@ -41,6 +41,9 @@ jobs:
         with:
           start: npm start
           browser: chrome
+
+
+
 
 
 
